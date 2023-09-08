@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".prop">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proper Noun"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView71"/>
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n    ➤A proper noun names specific or unique individuals, events, or places, and may include real or fictional characters and settings.
+                \n\n    ➤Unlike common nouns, most proper nouns, like Fred, New York, Mars, and Coca-Cola, begin with a capital letter.
+                \n\n    ➤They may also be referred to as proper names for their function of naming specific things.
+\n\n    ➤An example would be this famous movie line:
+\n •Houston, we have a problem.
+\n\n    ➤In the sentence, the word Houston is a proper noun because it names a specific place, while the word problem is a common noun, which expresses a thing or idea.
+\n\n    ➤Proper nouns are not typically preceded by articles or other determiners, but there are numerous exceptions such as the Bronx or the Fourth of July.
+
+\n\n    ➤Most proper nouns are singular, but again, there are exceptions as in the United States and the Joneses.\n"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

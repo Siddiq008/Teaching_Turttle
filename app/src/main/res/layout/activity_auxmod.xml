@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".auxmod">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="MODAL AUXILIARIES"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Modal auxiliaries are auxiliary verbs that lend different shades of meaning to the main verb to which they are attached.
+\n\n    ➤Modals help to express the mood or attitude of the speaker and convey ideas about possibility, probability, necessity, obligation, advisability, and permission.
+
+\n\n    1. CAN
+\n\n    ➤Ability, doubt, astonishment, permission, Polite request
+\n\n •	I can play the football.
+\n •	Can I go out tonight?
+
+
+\n\n    2.Could
+
+\n\n    ➤Past time ability/inability, polite permission, polite order
+
+\n\n •	I could not drive a four wheeler.
+\n •	Could I use your pen?
+\n •	Could you switch on the fan?
+
+
+\n\n     3.Shall
+\n\n    ➤Used with ‘I’ and ‘WE’ for future tense, suggestion, willingness
+\n\n •	I shall meet you.
+\n •	Shall I go instead of you?
+\n •	Shall I bring a cup of coffee for you?
+
+\n\n    4.Should
+\n\n    ➤To express one’s advice to others, necessity questions.
+\n\n •	You should improve your handwriting.
+\n •	Should I go in person?
+\n\n    5.Will
+\n\n    ➤To express determination, characteristic habit, invitation /a request, stronger possibility, to indicate uncertainty.
+\n\n •	Will you go to Chennai?
+\n •	She will sit with the novel for hours.
+\n •	Will you sing a song?
+\n •	That will be the milk maid.
+\n •	India will win the match.
+\n\n    6.Would
+\n\n    ➤Same as ‘will’, ask for opinion on something.
+\n\n •	I would go to Chennai every week.
+\n •	Would you mind coming tomorrow?
+\n\n    7.May
+\n\n    ➤ossibility/doubtfulness, express greetings/wishes, humble request.
+\n\n •	Ram may visit you.
+\n •	May God bless you.
+\n •	May I help you?
+\n\n    8. Might
+\n\n    ➤Remote possibility.
+\n\n •The patient might recover.
+\n •The medicine might cure you.
+\n\n    9. Must
+\n\n    ➤Compelling one to do or not do something.
+\n\n •	You must pay for your sin.
+
+\n\n    *’have to’ can also be used in the place of ‘must’
+\n\n •	You have to write the test.
+
+
+
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

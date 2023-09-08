@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".auxsem">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="SEMI MODALS"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="\n    1.	'ought to’
+
+\n\n    ➤Used to express moral obligation.
+\n\n •	She ought to be going.
+\n •	Students ought to submit the record notebooks on time.
+\n •	We ought to help the poor.
+\n\n    2.	‘used to’
+\n\n    ➤to express a discontinued habit.
+\n\n •	My Grandfather used to do exercises
+\n •	When he was young, he used to play with the dog.
+\n •	I used to go the beach, when I was in Chennai.
+\n\n    3.	‘need to’
+\n\n    ➤Express necessity.
+\n\n •	I need to go to the library.
+\n •	They need not pay the full amount now.
+\n\n    ➤To express obligation.
+\n\n •	We need to keep the air free from pollution
+\n\n    ➤To ask a question.
+\n\n •	Need I contact you?
+\n •	Do you need my help?
+\n\n    4.	‘Dare’
+\n\n    ➤used in questions.
+\n\n •	How dare you laugh at me?
+\n\n    ➤Used in negative sentences.
+\n\n •	They dare not talk to the Principal.
+
+\n\n    *‘Need’ and ‘dare’ can be used both as main and auxiliary verbs.
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

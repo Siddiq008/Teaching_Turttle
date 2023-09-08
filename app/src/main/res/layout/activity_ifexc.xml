@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".ifexc">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:text="Exceptions and Special Cases When Using Conditional Sentences"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/amaranth_italic"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView29"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="\n    Use of the Simple Future in the If-Clause:
+\n\n    ➤Generally speaking, the simple future should be used only in the main clause.
+\n\n    ➤One exception is when the action in the if-clause will take place after the action in the main clause.
+\n\nExample:
+\n •	If aspirin will ease my headache, I will take a couple tonight.
+
+\n\n    ➤The action in the if-clause is the aspirin easing the headache, which will take place only after the speaker takes them later that night.
+\n\n    “Were to” in the If-Clause:
+\n\n    ➤The verb phrase were to is sometimes used in conditional sentences when the likely or unlikely result is particularly awful or unthinkable.
+\n\n    ➤In this case, were to is used to place emphasis on this potential outcome.
+
+
+\n\nExample:
+\n\n •	If I were to be sick, I would miss another day of work.
+\n • 	If she were to  be late again, she would have to have a conference with the manager.
+\n •	If the rent were to have been a penny more, they would not have been able to pay it
+.
+\n\n    ➤Note that the emphatic “were to” can be used to describe hypothetical scenarios in the present, future, and past.\n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

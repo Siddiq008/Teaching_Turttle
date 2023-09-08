@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greendesign"
+    android:layout_height="match_parent"
+    tools:context=".vermain">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Main Verbs"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView123"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="    ➤The main verb is also called the lexical verb or the principal verb.
+\n\n    ➤This term refers to the important verb in the sentence, the one that typically shows the action or state of being of the subject.
+\n\n    ➤Main verbs can stand alone, or they can be used with a helping verb, also called an auxiliary verb.
+\n\n    ➤Now imagine that the same stranger walks into your room and says:
+\n\n •	I teach.
+\n •	People eat.
+\n •	The Earth rotates.
+\n\n    ➤Do you understand something? Has this person communicated something to you? Probably yes! Not a lot, but something.
+\n\n    ➤That's because these verbs are main verbs and have meaning on their own. They tell us something.
+\n\n    ➤Of course, there are thousands of main verbs.
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/textView124"
+                />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="Transitive and Intransitive Main Verbs"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView125"/>
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="\n\n    ➤Main verbs can be transitive or intransitive.
+\n\n    ➤Transitive verbs require direct objects to receive their action.
+\n\n    ➤Intransitive verbs, however, can express action without a direct object, and as a result, they can end a sentence without the sentence sounding incomplete.
+\n\n    ➤A transitive verb takes a direct object: Somebody killed the President
+\n\n    ➤An intransitive verb does not have a direct object: He died.
+\n\n    ➤Many verbs, like speak, can be transitive or intransitive.
+\n\n    ➤Look at these examples:
+\n\n    ➤Transitive:
+\n\n •	I saw an elephant.
+\n •	We are watching TV.
+\n •	He speaks English.
+\n\n    ➤Intransitive:
+\n\n •	He has arrived.
+\n •	John goes to school.
+\n •	She speaks fast.\n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greendesign"
+    android:layout_height="match_parent"
+    tools:context=".typev">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:fontFamily="@font/amaranth_italic"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                android:textIsSelectable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Active Voice"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                app:layout_constraintBottom_toTopOf="@id/textView31"
+                />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤	In the active voice, the sentence’s subject performs the action.
+\n\n    ➤The subject of a sentence is always a noun or a pronoun.
+\n\nExample:
+\n •	Sabareesh likes drawing.
+\n •	Her favourite time of day is twilight.
+
+\n\n    ➤No matter what verb you use, structuring your sentence so the subject performs the verb is writing in the active voice.
+\n\n    ➤The active voice has a direct, clear tone.
+\n\n    ➤Use it when you want the reader to focus on the subject of your sentence rather than on the action.\n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView30" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passive Voice"
+                android:fontFamily="@font/amaranth_italic"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView32"
+
+                />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n    ➤In the passive voice, the verb acts upon the subject or the subject is acted upon by the verb.
+
+\n\n Every sentence in the passive voice contains two verbs:
+\n1.	 A conjugated form of “to be”.
+\n2.	The main verb’s past participle.
+\n\n    ➤Because of this, every sentence in the passive voice also includes a preposition.
+\n\n    ➤Often, sentences in the passive voice are longer than sentences in the active voice simply because they have to include additional words, like prepositions.
+\n\nExample:
+\n •	Summer break is [conjugated form of “to be”] beloved [past participle of the main verb] by [preposition] students.
+
+\n\n    ➤The passive voice has a subtler tone than the active voice has.
+\n\n    ➤Sometimes your writing needs this tone, like when you want your reader to focus on the action being described or the verb’s direct object (which becomes the subject of the sentence) rather than on the noun performing the verb.
+\n\n    ➤This is why the passive voice is used in lab reports—it conveys scientific objectivity by minimizing the focus on the doer of the action.\n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sara">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sara">
+        <activity
+            android:name=".favoriteswords"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".idomdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".scorestore"
+            android:exported="false" />
+        <activity
+            android:name=".scorelayout"
+            android:exported="false" />
+        <activity
+            android:name=".spottheerror"
+            android:exported="false" />
+        <activity
+            android:name=".voicedashboard"
+            android:exported="false" />
+        <activity
+            android:name=".verbdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".tendashboard"
+            android:exported="false" />
+        <activity
+            android:name=".moddashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ifdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".voicetest"
+            android:exported="false" />
+        <activity
+            android:name=".verbtest"
+            android:exported="false" />
+        <activity
+            android:name=".transtest"
+            android:exported="false" />
+        <activity
+            android:name=".tentest"
+            android:exported="false" />
+        <activity
+            android:name=".modtest"
+            android:exported="false" />
+        <activity
+            android:name=".ifctest"
+            android:exported="false" />
+        <activity
+            android:name=".idiomtest"
+            android:exported="false" />
+        <activity
+            android:name=".wordlist"
+            android:exported="false" />
+        <activity
+            android:name=".vocsplash"
+            android:exported="false" />
+        <activity
+            android:name=".trcomco"
+            android:exported="false" />
+        <activity
+            android:name=".trcomsi"
+            android:exported="false" />
+        <activity
+            android:name=".trcomc"
+            android:exported="false" />
+        <activity
+            android:name=".trcoms"
+            android:exported="false" />
+        <activity
+            android:name=".trsimc"
+            android:exported="false" />
+        <activity
+            android:name=".trsim"
+            android:exported="false" />
+        <activity
+            android:name=".transdef"
+            android:exported="false" />
+        <activity
+            android:name=".transintro"
+            android:exported="false" />
+        <activity
+            android:name=".idimp"
+            android:exported="false" />
+        <activity
+            android:name=".ididef"
+            android:exported="false" />
+        <activity
+            android:name=".idomsintro"
+            android:exported="false" />
+        <activity
+            android:name=".tenperpro"
+            android:exported="false" />
+        <activity
+            android:name=".tenper"
+            android:exported="false" />
+        <activity
+            android:name=".tenpro"
+            android:exported="false" />
+        <activity
+            android:name=".tensim"
+            android:exported="false" />
+        <activity
+            android:name=".tendef"
+            android:exported="false" />
+        <activity
+            android:name=".tenseintro"
+            android:exported="false" />
+        <activity
+            android:name=".conlis"
+            android:exported="false" />
+        <activity
+            android:name=".consta"
+            android:exported="false" />
+        <activity
+            android:name=".consub"
+            android:exported="false" />
+        <activity
+            android:name=".concor"
+            android:exported="false" />
+        <activity
+            android:name=".concoo"
+            android:exported="false" />
+        <activity
+            android:name=".condef"
+            android:exported="false" />
+        <activity
+            android:name=".conjunc"
+            android:exported="false" />
+        <activity
+            android:name=".prepunn"
+            android:exported="false" />
+        <activity
+            android:name=".prepend"
+            android:exported="false" />
+        <activity
+            android:name=".prepexp"
+            android:exported="false" />
+        <activity
+            android:name=".preptyp"
+            android:exported="false" />
+        <activity
+            android:name=".prepdef"
+            android:exported="false" />
+        <activity
+            android:name=".preposintro"
+            android:exported="false" />
+        <activity
+            android:name=".advavo"
+            android:exported="false" />
+        <activity
+            android:name=".advpla"
+            android:exported="false" />
+        <activity
+            android:name=".advdeg"
+            android:exported="false" />
+        <activity
+            android:name=".advsen"
+            android:exported="false" />
+        <activity
+            android:name=".advadv"
+            android:exported="false" />
+        <activity
+            android:name=".advadj"
+            android:exported="false" />
+        <activity
+            android:name=".advver"
+            android:exported="false" />
+        <activity
+            android:name=".advdef"
+            android:exported="false" />
+        <activity
+            android:name=".adverbintro"
+            android:exported="false" />
+        <activity
+            android:name=".vermain"
+            android:exported="false" />
+        <activity
+            android:name=".vermo"
+            android:exported="false" />
+        <activity
+            android:name=".verpri"
+            android:exported="false" />
+        <activity
+            android:name=".verhel"
+            android:exported="false" />
+        <activity
+            android:name=".defve"
+            android:exported="false" />
+        <activity
+            android:name=".verbintro"
+            android:exported="false" />
+        <activity
+            android:name=".adjnoun"
+            android:exported="false" />
+        <activity
+            android:name=".adjadj"
+            android:exported="false" />
+        <activity
+            android:name=".adjcoo"
+            android:exported="false" />
+        <activity
+            android:name=".adjdeg"
+            android:exported="false" />
+        <activity
+            android:name=".adjuse"
+            android:exported="false" />
+        <activity
+            android:name=".adjmo"
+            android:exported="false" />
+        <activity
+            android:name=".defadj"
+            android:exported="false" />
+        <activity
+            android:name=".adjeintro"
+            android:exported="false" />
+        <activity
+            android:name=".prodis"
+            android:exported="false" />
+        <activity
+            android:name=".prorec"
+            android:exported="false" />
+        <activity
+            android:name=".prointe"
+            android:exported="false" />
+        <activity
+            android:name=".propos"
+            android:exported="false" />
+        <activity
+            android:name=".proint"
+            android:exported="false" />
+        <activity
+            android:name=".proref"
+            android:exported="false" />
+        <activity
+            android:name=".proind"
+            android:exported="false" />
+        <activity
+            android:name=".prodem"
+            android:exported="false" />
+        <activity
+            android:name=".prorel"
+            android:exported="false" />
+        <activity
+            android:name=".proant"
+            android:exported="false" />
+        <activity
+            android:name=".proper"
+            android:exported="false" />
+        <activity
+            android:name=".prodef"
+            android:exported="false" />
+        <activity
+            android:name=".pronintro"
+            android:exported="false" />
+        <activity
+            android:name=".other"
+            android:exported="false" />
+        <activity
+            android:name=".count"
+            android:exported="false" />
+        <activity
+            android:name=".coll"
+            android:exported="false" />
+        <activity
+            android:name=".con"
+            android:exported="false" />
+        <activity
+            android:name=".prop"
+            android:exported="false" />
+        <activity
+            android:name=".defn"
+            android:exported="false" />
+        <activity
+            android:name=".nounintro"
+            android:exported="false" />
+        <activity
+            android:name=".pos"
+            android:exported="false" />
+        <activity
+            android:name=".patoac"
+            android:exported="false" />
+        <activity
+            android:name=".actopa"
+            android:exported="false" />
+        <activity
+            android:name=".rulev"
+            android:exported="false" />
+        <activity
+            android:name=".typev"
+            android:exported="false" />
+        <activity
+            android:name=".vocdef"
+            android:exported="false" />
+        <activity
+            android:name=".voiceintro"
+            android:exported="false" />
+        <activity
+            android:name=".auxsem"
+            android:exported="false" />
+        <activity
+            android:name=".auxmod"
+            android:exported="false" />
+        <activity
+            android:name=".auxdef"
+            android:exported="false" />
+        <activity
+            android:name=".Modintro"
+            android:exported="false" />
+        <activity
+            android:name=".wonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vocabularylay"
+            android:exported="false" />
+        <activity
+            android:name=".TestLay1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Scificlay_1"
+            android:exported="false" />
+        <activity
+            android:name=".romancelay_2"
+            android:exported="false" />
+        <activity
+            android:name=".romancelay_1"
+            android:exported="false" />
+        <activity
+            android:name=".morallay_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".layout2"
+            android:exported="false" />
+        <activity
+            android:name=".ifintro"
+            android:exported="false" />
+        <activity
+            android:name=".ifform"
+            android:exported="false" />
+        <activity
+            android:name=".ifexc"
+            android:exported="false" />
+        <activity
+            android:name=".ifend"
+            android:exported="false" />
+        <activity
+            android:name=".ifdef"
+            android:exported="false" />
+        <activity
+            android:name=".ifbeg"
+            android:exported="false" />
+        <activity
+            android:name=".ifaff"
+            android:exported="false" />
+        <activity
+            android:name=".histlay_1"
+            android:exported="false" />
+        <activity
+            android:name=".GrammerLayout"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".horrorlay_1"
+            android:exported="false" />
+        <activity
+            android:name=".checkemailverify"
+            android:exported="false" />
+        <activity
+            android:name=".arttype"
+            android:exported="false" />
+        <activity
+            android:name=".artpro"
+            android:exported="false" />
+        <activity
+            android:name=".artintro"
+            android:exported="false" />
+        <activity
+            android:name=".artind"
+            android:exported="false" />
+        <activity
+            android:name=".Articlelay_1"
+            android:exported="false" />
+        <activity
+            android:name=".artexp"
+            android:exported="false" />
+        <activity
+            android:name=".artdef"
+            android:exported="false" />
+        <activity
+            android:name=".artadj"
+            android:exported="false" />
+        <activity
+            android:name=".advenlay_1"
+            android:exported="false" />
+        <activity
+            android:name=".actionlay_1"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".advdef">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADVERB"
+                android:fontFamily="@font/amaranth_italic"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@id/textView111"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@id/textView112"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤An adverb is a word that modifies (describes) a verb (he sings loudly), an adjective (very tall), another adverb (ended too quickly), or even a whole sentence (Fortunately, I had brought an umbrella).
+\n\n    ➤Adverbs often end in -ly, but some (such as fast) look exactly the same as their adjective counterparts.
+\n\n •	Tom Longboat did not run badly.
+\n •	Tom is very tall.
+\n •	The race finished too quickly.
+\n •	Fortunately, Lucy recorded Tom’s win.
+\n\n    ➤It’s easy to identify adverbs in these sentences.\n
+
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>.
+
+</androidx.constraintlayout.widget.ConstraintLayout>

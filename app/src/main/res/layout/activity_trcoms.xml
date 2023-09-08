@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".trcoms">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="Compound to Simple"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n\n    ➤A compound sentence is characterized by at least two independent clauses which can be used as separate sentences and are connected with coordinating conjunctions.
+\n\nSuch as: Listening to music and singing songs are my hobbies.
+\n\n    ➤On the other hand, a simple sentence is characterized by only one independent clause and no dependent clause.
+\n\nSuch as: Listening to music is my hobby.
+\n\n    ➤The rules for transforming compound sentence to simple sentence are discussed below.
+
+\n\nRule 1:
+\n\n    ➤If the compound sentence is stating that a person is doing two things one after another and join them with a conjunction-“and”; then while transforming it into simple, “ing” will be added to the first verb.
+\n\n    ➤hus the first clause will be shortened and tense will be same as the second clause.
+
+\n\nCompound: I went there and met her.
+\nSimple: Going there I met her.
+\n\nCompound: She will go to the office and will do the work.
+\nSimple: Going to the office she will do the work.
+
+\n\nRule 2:
+\n\n    ➤>If the compound sentence has “not only..….but also”, the simple sentence will use “besides being.”
+
+\n\nCompound: The girl is not only beautiful but also intelligent.
+\nSimple: Besides being beautiful the girl is intelligent.
+\n\nCompound: She is not only a brilliant student but also a good singer.
+\nSimple: Besides being a brilliant student she is a good singer.
+
+\n\nRule 3:
+\n\n    ➤If the compound sentence has the conjunction “but” joining the two different clauses, the simple sentence will use “in spite of” at the beginning following my/his/her according to the person+ noun form of the adjective of the subordinate clause + main clause.
+
+\n\nCompound: The book was long but interesting.
+\nSimple: In spite of being long the book was interesting.
+\n\nCompound: He was ill, but he came for rehearsal.
+\nSimple: In spite of his illness he came for rehearsal.
+
+\n\nRule 4:
+\n\n    ➤If the compound sentence has this structure, ”the person must do….or/otherwise, the person will not…..”, the simple sentence will follow this structure, “ person must do….to + the result/outcome of doing the work.
+
+\n\nCompound: You must study hard or/otherwise, you will not get good marks in the exam.
+\nSimple: You must study hard to get good marks in the exam.
+
+
+\n\nRule 5:
+\n\n    ➤If the compound sentence follows this structure, ”person must (do)….or/otherwise person will + verb’s simple form…..” or , ”person must do…...or/otherwise person will be + verb’s past participle form, the simple sentence will follow this structure, ”person must (do)….to escape/avoid……”.
+
+\n\nCompound: You must practice hard or/otherwise, you will lose the game.
+\nSimple: You must practice hard to escape losing the game.
+\n\nCompound: He must work hard or/otherwise, he will be suspended.
+\nSimple: He must work hard to avoid suspension.
+
+\n\nRule 6:
+\n\n    ➤If the compound sentence first states a cause behind a work, then join the result or outcome with a conjunction “and ”, the simple sentence will follow this structure, “ Being + adjective (cause)+ main clause.
+
+\n\nCompound: He was guilty, and he ran away.
+\nSimple: Being guilty he ran away.
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

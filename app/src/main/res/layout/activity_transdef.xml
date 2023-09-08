@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".transdef">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="Transformation of sentences"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Sentences: Simple, Compound, and Complex
+\n\n     1.	Simple Sentences
+\n\n    ➤A simple sentence has the most basic elements that make it a sentence: a subject, a verb, and a completed thought.
+\n\n    ➤Examples of simple sentences include the following:
+\n\n    1.	Joe waited for the train.
+\n\n'Joe'= subject, 'waited' = verb
+\n\n    2.	The train was late.
+\n\n'The train' = subject, 'was' = verb
+
+\n\n    2.	Compound Sentences
+\n\n    ➤A compound sentence refers to a sentence made up of two independent clauses (or complete sentences) connected to one another with a coordinating conjunction.
+\n\n    ➤Coordinating conjunctions are easy to remember if you think of the words 'FAN BOYS':
+\n\n •	For
+\n •	And
+\n •	Nor
+\n •	But
+\n •	Or
+\n •	Yet
+\n •	So
+\n\n    ➤Examples of compound sentences include the following:
+\n\n    1. Joe waited for the train, but the train was late.
+\n\n    2. I looked for Mary and Samantha at the bus station, but they arrived at the station before noon and left on the bus before I arrived.
+
+
+\n\n    3.	Complex Sentences
+\n\n    ➤A complex sentence is made up of an independent clause and one or more dependent clauses connected to it.
+\n\n    ➤A dependent clause is similar to an independent clause, or complete sentence, but it lacks one of the elements that would make it a complete sentence.
+\n\n    ➤Examples of dependent clauses include the following:
+\n\n •	because Mary and Samantha arrived at the bus station before noon
+\n •	while he waited at the train station
+\n •	after they left on the bus
+\n\n    ➤Dependent clauses such as those above cannot stand alone as a sentence, but they can be added to an independent clause to form a complex sentence.
+\n\n    ➤Dependent clauses begin with subordinating conjunctions.
+\n\n    ➤Below are some of the most common subordinating conjunctions:
+\n\n •	After
+\n •	Although
+\n •	As
+\n •	Because
+\n •	Before
+\n •	even though
+\n •	if
+\n •	since
+\n •	though
+\n •	unless
+\n •	until when
+\n •	whenever
+\n •	whereas
+\n •	wherever
+\n •	while
+
+\n\n    ➤A complex sentence joins an independent clause with one or more dependent clauses.
+\n\n    ➤Tip: When the dependent clause comes first, a comma should be used to separate the two clauses
+\n\n    ➤he dependent clauses can go first in the sentence, followed by the independent clause, as in the following:
+\n\n    1. Because Mary and Samantha arrived at the bus station before noon, I did not see them at the station.
+\n\n    2. While he waited at the train station, Joe realized that the train was late.
+\n\n    3. After they left on the bus, Mary and Samantha realized that Joe was waiting at the train station.
+
+\n\n    ➤Remember:
+\n\n •	A simple sentence consists of just one clause.
+\n •	A complex sentence consists of one independent clause and one or more dependent (subordinate) clauses.
+\n •	A compound sentence consists of two or more coordinate (independent) clauses.
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

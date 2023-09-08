@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".tensim">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simple Tenses"
+                android:textIsSelectable="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth_italic"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView77"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:text="\n    ➤The present, past, and future tenses are called simple tenses.\n"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/amaranth_italic"
+                app:layout_constraintBottom_toTopOf="@id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_24"
+                app:layout_constraintBottom_toTopOf="@id/textView10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="\n    Simple Present Tense
+\n\n    ➤Talking about actions that occur repeatedly
+\n\n    ➤These are actions that happen on a regular basis, such as habits or routines.
+\n\n    ➤They can have a specific or general time frame.
+\n\n •	I brush my teeth every morning and every night.
+\n •	Bret runs five miles every day.
+\n\n    ➤Discussing current facts, basic truths, or widely accepted beliefs
+\n\n •	The sky is blue, and the grass is green.
+\n •	Cats catch mice.
+\n\n    ➤Describing people or things
+\n\n    ➤Use the present tense to describe physical characteristics, personality traits, feelings, abilities, and likes and dislikes that are true in the present.
+
+\n\n •	Her brothers are both over six feet tall.
+\n •	He is the nicest person I know.
+\n •	I feel sick today.
+
+\n\n    Simple Past Tense
+\n\n    ➤The past tense is more straightforward than the present tense—you only use it to talk about actions, events, or feelings that happened at an earlier point in time.
+
+\n\n •	Olivia closed the door behind her.
+\n •	We pushed through the crowd to get a better view of the stage.
+\n\n    ➤Simply take the base form and add -ed. If the base ends in a silent e, just add -d, not -ed. Unlike the present tense, the past tense always uses the same form regardless of person or number.
+
+\n\n    Future Tense
+\n\n    ➤The future tense is one of the easiest tenses to learn because it has no irregular forms.
+\n\n    ➤Just as its name suggests, it's used to describe actions that will happen in the future.
+\n\n    ➤It is formed by combining the helping verb will with the base form of the main verb
+\n\n •	Tomorrow I will walk home from school.
+\n"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

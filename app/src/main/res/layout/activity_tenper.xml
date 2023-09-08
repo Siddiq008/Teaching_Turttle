@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".tenper">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfect Tenses"
+                android:textIsSelectable="true"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth_italic"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView77"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Perfect tenses show when an action happened in relation to another action.
+\n\n    ➤To form the perfect tenses, use a form of the helping verb have (have, has, had, will have) plus the past participle of the main verb.
+\n\n    ➤The verb have changes to show the tense.
+\n"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/amaranth_italic"
+                app:layout_constraintBottom_toTopOf="@id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_26"
+                app:layout_constraintBottom_toTopOf="@id/textView10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n    Present  Perfect
+\n\n    ➤An action in the present perfect began in the past and continues in the present or has ended by the present.
+\n\n    ➤It can also be used to talk about past actions that happened multiple times.
+\n\n    ➤To form the present perfect, use the present tense of the verb to have plus the past participle of the main verb.
+\n\n •	Most days I take the bus to school, but for the last two weeks I have walked to school.
+\n •	I have finished my homework already.
+
+\n\n    Past Perfect
+\n\n    ➤An action in the past perfect began and ended before another past event.
+\n\n    ➤o form the past perfect, use the past tense of the verb to have plus the past participle of the main verb.
+\n\n •	Yesterday I rode the bus to school, but the day before I had walked to school.
+\ •	I was watching TV because I had finished my homework already.
+
+\n\n    Future Perfect
+\n\n    ➤An action in the future perfect tense will be finished by a particular time in the future.
+\n\n    ➤o form this tense, use this formula: will + have + past participle.
+
+\n\n •	By the time I arrive at school tomorrow, I will have walked to school 100 days in a row.
+\n •	By 8 p.m. I will have finished my homework.
+
+\n"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".prodef">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRONOUNS"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView86"/>
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definition:"
+                android:fontFamily="@font/amaranth_italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                android:textIsSelectable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView85"/>
+
+            <TextView
+                android:id="@+id/textView85"
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Pronouns are short words we swap in for other nouns to make our writing and speech faster and more varied.
+\n\n    ➤Pronouns are the words you substitute for other nouns when your reader or listener already knows which nouns you’re referring to.
+\n\n    ➤For example, you might say, “I have a dog. He’s brown and white.” There’s no need to clarify that you’re describing your dog in the second sentence because you already mentioned him in the first.
+\n\n    ➤But following up “I have a dog” with “brown and white” is grammatically incorrect .
+\n\n    ➤so with the pronoun “he’s,” you turn the phrase “brown and white” into a full sentence: He’s brown and white.
+
+\n\n •	They
+\n •	I
+\n •	You
+\n •	Who
+\n •	Themselves
+\n •	Each other
+
+\n\n    ➤Pronouns make up a small subcategory of nouns.
+\n\n    ➤The distinguishing characteristic of pronouns is that they can be substituted for other nouns.
+\n\n    ➤For instance, if you’re telling a story about your sister Sarah, the story will begin to sound repetitive if you keep repeating “Sarah” over and over again.
+\n\nExample: \n
+\n •	Sarah has always loved fashion. Sarah announced that Sarah wants to go to fashion school.
+\n\n    ➤You could try to mix it up by sometimes referring to Sarah as “my sister,” but then it sounds like you’re referring to two different people:
+\n\n •	Sarah has always loved fashion. My sister announced that Sarah wants to go to fashion school.
+\n\n    ➤Instead, you can use the pronouns she and her to refer to Sarah:
+\n\n •	Sarah has always loved fashion. She announced that she wants to go to fashion school.
+\n\n    ➤Pronouns can replace both proper and common nouns. \n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/textView87"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="Types"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@id/textView88"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Personal pronouns
+\n    ➤Antecedents
+\n    ➤Relative pronouns
+\n    ➤Demonstrative pronouns
+\n    ➤Indefinite pronouns
+\n    ➤Reflexive pronouns
+\n    ➤Intensive pronouns
+\n    ➤Possessive pronouns
+\n    ➤Interrogative pronouns
+\n    ➤Reciprocal pronouns
+\n    ➤Distributive pronouns\n
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".trsimc">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="Simple to Complex"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n\nRule 1:
+\n\n    ➤If there is an extra phrase in the simple sentence, expand that phrase to make a clause. Then choose a suitable connectors to connect the clauses.
+
+\n\n    ➤So, the two clauses we can get from this sentence are:
+\n\n*The students saw the teacher ---- *The students stopped making noise.
+
+\n\n    ➤The complex sentence could be:
+\n\n •	As the student saw the teacher, they stopped making noise.
+\n •	Since the student saw the teacher, they stopped making noise.
+\n •	The students stopped making noises when they saw the teacher.
+
+\n\n    Example:
+\n\nSimple: Alex could not go to school due to his mother’s illness.
+\nComplex: Alex could not go to school because his mother was ill.(Or)Alex could not go to school since his mother was ill.
+
+
+\n\nRule 2:
+\n\n    ➤If there is no extra phrase in the simple sentence, you have to find a word which you can expand into a clause. The word can be an adjective, noun, or adverb.
+\n\n    Example:
+\n\nSimple: He pleaded for his innocence.
+\nComplex: He pleaded that he was innocence.
+
+\n\n    More Examples of noun clauses in complex sentences:
+\n\nSimple: Murphy knows Mr. Rashid.
+\nComplex: Murphy knows who Mr. Rashid is.
+\n\nSimple: I prayed for your job.
+\nComplex: I prayed so that you could get the job. (Connector – ‘so that’ requires the modal – ‘can/could’ in the following clause.)
+
+\n\nFor words that are adjectives, you have to make an adjective clause.
+\n\n    Example:
+\n\nSimple: He was an outstanding actor.
+\nComplex: He was an actor who was outstanding.
+
+\n\n    For words that are adverbs, you have to make an adverb clause.
+\n\n    Example:
+\n\nSimple: He is too weak to carry this heavy bag.
+\nComplex: He is so weak that he cannot carry that heavy bag.
+
+\n\nRule 3:
+
+\n\n    ➤Because of  = clause + because/as/since + clause.
+\n\n    Example:
+\n\nSimple: I could not do it because of my illness.
+\nComplex: I could not do it because I was ill.(Or) I could not do it as I was ill.(Or)I could not do it since I was ill.
+\n\n    ➤>At the time of (indication of time)= when + clause + clause / clause + When + clause.
+\n\n    Example:
+\n\nSimple: At the time of my birth, my father was abroad.
+\nComplex: When I was born, my father was abroad.
+\n\n    ➤In spite of/ despite = though/although + clause + clause.
+\n\n    Example:
+\n\nSimple: In spite of being a good student, he could not do well on the exam.
+\nComplex: Although he is a good student, he could not do well on the exam.
+\n\n    ➤Without + v1(ing) = if + clause + clause. / clause + unless + clause.
+\n\n    Example:
+\n\nSimple: Without playing well, we cannot win this match.
+\nComplex: If we do not play well, we cannot win this match(Or) We cannot win this match unless we play well.
+\n\n    ➤Too . . (an adjective) . . too = clause + so . .(the adjective). . that + clause.
+\n\n    Example:
+\n\nSimple: He is too weak to continue walking.
+\nComplex: He is so weak that he cannot walk.
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

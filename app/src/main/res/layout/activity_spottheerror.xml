@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".spottheerror">
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+
+                    android:text="Spot the Errors"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/qus1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 1"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+                <TextView
+                    android:id="@+id/ans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus1" />
+
+
+
+                <EditText
+                    android:id="@+id/uans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans1" />
+
+                <TextView
+                    android:id="@+id/qus2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 2"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans1" />
+
+                <TextView
+                    android:id="@+id/ans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus2" />
+
+
+                <EditText
+                    android:id="@+id/uans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans2" />
+
+                <TextView
+                    android:id="@+id/qus3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 3"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans2" />
+
+                <TextView
+                    android:id="@+id/ans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus3" />
+
+
+
+                <EditText
+                    android:id="@+id/uans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans3" />
+
+                <TextView
+                    android:id="@+id/qus4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:text="Question 4"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans3" />
+
+                <TextView
+                    android:id="@+id/ans4"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus4" />
+
+
+
+                <EditText
+                    android:id="@+id/uans4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans4" />
+
+
+                <TextView
+                    android:id="@+id/qus5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:text="Question 5"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans4" />
+
+                <TextView
+                    android:id="@+id/ans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus5" />
+
+
+                <EditText
+                    android:id="@+id/uans5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans5" />
+
+                <TextView
+                    android:id="@+id/qus6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 6"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans5" />
+
+                <TextView
+                    android:id="@+id/ans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus6" />
+
+
+                <EditText
+                    android:id="@+id/uans6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans6" />
+
+                <TextView
+                    android:id="@+id/qus7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 7"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans6" />
+
+                <TextView
+                    android:id="@+id/ans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus7" />
+
+
+                <EditText
+                    android:id="@+id/uans7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans7" />
+
+                <TextView
+                    android:id="@+id/qus8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 8"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans7" />
+
+                <TextView
+                    android:id="@+id/ans8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus8" />
+
+
+                <EditText
+                    android:id="@+id/uans8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans8" />
+
+                <TextView
+                    android:id="@+id/qus9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 9"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans8" />
+
+                <TextView
+                    android:id="@+id/ans9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus9" />
+
+
+
+                <EditText
+                    android:id="@+id/uans9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans9" />
+
+                <TextView
+                    android:id="@+id/qus10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginRight="30sp"
+                    android:text="Question 10"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans9" />
+
+                <TextView
+                    android:id="@+id/ans10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="10sp"
+                    android:text="Answer : "
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/qus10" />
+
+
+                <EditText
+                    android:id="@+id/uans10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="30sp"
+                    android:hint="Enter Your Answer"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ans10" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:text="submit"
+                    android:fontFamily="@font/amaranth_italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/uans10" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

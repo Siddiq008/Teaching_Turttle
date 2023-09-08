@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greendesign"
+    android:layout_height="match_parent"
+    tools:context=".proper">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal pronouns"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤When you think of pronouns, you most likely think of personal pronouns. Personal pronouns are pronouns that refer to specific individuals and groups.
+                \n\n    ➤Personal pronouns include:
+\n\n •	I/me
+\n •	She/her
+\n •	He/him
+\n •	They/them
+\n •	We/us
+\n •	You
+\n\n    ➤Here are a few examples of personal pronouns in italics, with the nouns they’re referring to bolded:
+\n\n •	The new student will arrive today. They will need a seating assignment and a name tag.
+\n •	My family loves nachos. We make them every Friday for movie night.
+\n\n    ➤In the second example sentence, notice that nachos (a noun) and them (a pronoun) aren’t emphasized.
+\n\n    ➤That’s because in this sentence, them isn’t a personal pronoun because it isn’t replacing a proper noun, but rather we is.\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

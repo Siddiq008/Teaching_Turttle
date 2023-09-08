@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newdesapp2"
+    tools:context=".checkemailverify">
+
+    <TextView
+        android:id="@+id/notverify"
+        android:layout_width="329dp"
+        android:layout_height="78dp"
+        android:text="EMAIL IS NOT VERIFIED"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amaranth_italic"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/sendmail"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="184dp"
+        android:background="#268157"
+        android:fontFamily="@font/amaranth_italic"
+        android:text="Verify Email"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/verified"
+        android:layout_width="352dp"
+        android:layout_height="56dp"
+        android:text="EMAIL IS VERIFIED "
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/sendmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notverify"
+        app:layout_constraintVertical_bias="0.64" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

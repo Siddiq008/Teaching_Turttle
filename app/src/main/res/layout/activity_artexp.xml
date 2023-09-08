@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".artexp">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="Exceptions: Choosing A or An"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView17"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:text="\n    ➤There are a few exceptions to the general rule of using a before words that start with consonants and an before words that begin with vowels.\n
+\n    ➤The first letter of the word honour, for example, is a consonant, but it’s unpronounced.\n
+\n    ➤In spite of its spelling, the word honour begins with a vowel sound.\n
+\n    ➤Therefore, we use an.
+\nExample: My mother is an honest woman.\n
+\n    ➤Similarly, when the first letter of a word is a vowel but is pronounced with a consonant sound, use a.
+\nExample: She is a United States senator.\n
+\n    ➤This holds true with acronyms and initialisms, too: an LCD display, a UK-based company, an HR department, a URL.
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView13"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nOmission of Articles"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView18"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Occasionally, articles are omitted altogether before certain nouns. In these cases, the article is implied but not actually present.
+\n\n    ➤This implied article is sometimes called a “zero article.”
+\n\n    ➤Often, the article is omitted before nouns that refer to abstract ideas.
+\n\nExample:
+\n •    Let’s go out for a dinner tonight.(Incorrect statement)
+\n •    Let’s go out for dinner tonight.(Correct statement)
+\n •    The creativity is a valuable quality in children.(Incorrect statement)
+\n •    Creativity is a valuable quality in children.(Correct statement)
+
+\n\n    ➤Many languages and nationalities are not preceded by an article.
+\n\nExample:
+\n •    I studied the French in high school for four years.
+\n •    I studied French in high school for four years.
+
+\n\n    ➤Sports and academic subjects do not require articles.
+\n\nExample:
+\n •    I like to play the baseball.(Incorrect statement)
+\n •    I like to play baseball.(Correct statement)
+\n •    My sister was always good at the math. (Incorrect statement)
+\n •    My sister was always good at math.(Correct statement)\n
+
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

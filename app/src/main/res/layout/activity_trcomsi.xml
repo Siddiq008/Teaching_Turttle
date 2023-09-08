@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greendesign"
+    android:layout_height="match_parent"
+    tools:context=".trcomsi">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="Complex to Simple"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n\n    ➤A sentence characterized by one independent clause and at least one dependent clause is called a Complex sentence.
+\n\nSuch as, Although I was ill, I attended the meeting.
+\n\n    ➤On the other hand, a sentence characterized by only one independent clause and no dependent clause is called a Simple sentence.
+\n\nSuch as, In spite of my illness I attended the meeting.
+\n\n    ➤The rules for transforming complex sentence to simple sentence are discussed below:
+
+\n\nRule 1:
+\n\n    ➤When the subject of two clauses of a complex sentence including since/as/when is same and both clauses have the main verb, the simple sentence will follow this formula: Verb+ing of 1st clause + the rest of the verb + comma + subject of 1st clause + the rest.
+
+\n\n\t\tExample:
+\n\nComplex: Since I was ill, I could not attend the meeting.
+\nSimple: Being ill, I could not attend the meeting.
+\n\nComplex: As I performed very well, I got the first prize.
+\nSimple: Performing very well, I got the first prize.
+
+\n\n    Exception:
+\n\nComplex: When the chicken curry arrived, we started having lunch.
+\nSimple: On the arrival of the chicken curry, we started having lunch.
+
+\n\nRule 2:
+\n\n    ➤When the subjects of two clauses of a complex sentence are different and have am/is/are/was/were/has/have/had, the simple sentence will follow this rule: Eliminate the since/as/when + replacing am/is/are/was/were use being or in place of has/have/had use having + 2nd clause.
+
+\n\n    Example:
+\n\nComplex:  Since the weather was very bad, we did not start the journey.
+\nSimple: The weather being very bad, we did not start the journey.
+\n\nComplex: When the show was over, we came back home.
+\nSimple: The show being over, we came back home.
+
+\n\nRule 3:
+\n\n    ➤When the subject of the two clauses is same, and the subordinate clause has be verb (am/ is/ are/ was/ were/ have/ has/ had), the simple sentence will follow this rule: Because of in the place of since/as + the possessive form of subject of 1st clause + being in the place of (am/is/are/was/were) or having in the place of (has/have/had) + the rest + comma + 2nd clause.
+
+\n\n    Example:
+\n\nComplex: Since he was ill, he could not come.
+\nSimple: Because being ill, he could not come.
+\n\nComplex: He was loved by all, as he had honesty.
+\nSimple: He was loved by all, because of his having honesty.
+
+\n\nRule  4:
+\n\n    ➤When a complex sentence has relative pronoun, the simple sentence will follow this rule: From the beginning up to the relative pronoun will be written + the relative pronoun will be omitted+ the be verb will be omitted + the main verb + ing + the rest.
+
+\n\n    Example:
+\n\nComplex: The doctor lived in a quarter that belonged to the hospital.
+\nSimple: The doctor lived in a quarter belonging to the hospital.
+
+\n\nComplex: A cow that is very strong can plow this land.
+\nSimple: A cow being very strong can plow his land.
+
+\n\nRule 5:
+\n\n    ➤If the complex sentence has “when” which indicates estimate while transforming it into simple, when will be omitted + subject and verb after when will be omitted + little time at/in+ season (if mentioned) + (if age is mentioned) at the age of+ the rest.
+
+\n\n    Example:
+\n\nComplex: When it was midnight, I was awakened by the sound of construction.
+\nSimple: At midnight I was awakened by the sound of construction.
+\n\nComplex: When it is summer, we can eat different kinds of mango.
+\nSimple: In summer, we can eat different kinds of mango.
+
+\n\n    ➤But if the when doesn’t mean time rather it means that something is going on, then At the time of + Verb+ ing + the rest.
+\n\n    Example:
+\n\nComplex: When it was raining, we were sitting in the coffee shop.
+\nSimple: At the time of raining, we were sitting in the coffee shop.
+
+\n\n    ➤When the personal subject is used in the subordinate clause, the simple sentence will use a possessive pronoun.
+\n\n    Example:
+\n\nComplex: When they were studying, the teacher came.
+\nSimple: At the time of their studying, the teacher came.
+
+\n\nRule 6:
+\n\n    ➤To transform negative conditional complex sentence having if, into a simple form, this rule is followed: Without+ Verb+ ing + 2nd clause.
+
+\n\n    Example:
+\n\nComplex: If you do not struggle in life, you cannot achieve your goal.
+\nSimple: Without struggling in life, you cannot achieve your goal.
+\n\nComplex: If you do not study hard, you will not get good marks in the exam.
+\nSimple: Without studying hard, you will not get good marks in the exam.
+
+\n\n    ➤If the clause is affirmative then by is used replacing without.
+
+\n\n     Example:
+\n\nComplex: If you work hard, you will get promotion quickly.
+\nSimple: By working hard, you will get promotion quickly.
+
+\n\nRule 7:
+\n\n    ➤If the complex sentence has “so that”, the simple sentence will follow this rule:
+
+\n\n    ➤From beginning up to so will be written + from “so that “up to may/might/can/could will be eliminated + to + the rest of the sentence.
+
+\n\n    Example:
+\n\nComplex: The student studied hard so that he could get good marks on the exam.
+\nSimple: The student studied hard to get good marks on the exam.
+
+\n\nRule 8:
+\n\n    ➤If the complex sentence has “so……that” form, the simple sentence will follow this rule: too will be used in the place of so + the same thing will be placed up to that + from that up to not will be eliminated + to + the rest.
+
+\n\n    Example:
+\n\nComplex: He is so sick that he cannot come.
+\nSimple: He is too weak to come.
+
+\n\nRule 9:
+\n\n    ➤When the complex sentence has though/although, to transform it into simple form this rule will be followed: In spite of will be used in the place of though /although + subject’s possessive form + being in the place of am/is/are/was/were or having in the place of has/have/had or verb+ ing + the rest + the 2nd clause.
+
+\n\n    Example:
+\n\nComplex: Though she was sick, she worked very hard.
+\nSimple: In spite of her being sick, she worked very hard.
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textIsSelectable="true"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

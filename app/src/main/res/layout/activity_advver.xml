@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".advver">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textIsSelectable="true"
+                android:text="Adverbs and verbs"
+                android:fontFamily="@font/amaranth_italic"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="\n    ➤Adverbs often modify verbs.
+\n\n    ➤This means that they describe the way an action is happening.
+\n\n •	Phillip sings loudly in the shower.
+\n •	My cat waits impatiently for his food.
+\n •	I will seriously consider your suggestion.
+\n\n    ➤The adverbs in each of the sentences above answer the question in what manner? How does Phillip sing? Loudly.
+\n\n    ➤How does my cat wait? Impatiently.
+\n\n    ➤ How will I consider your suggestion? Seriously.
+\n\n    ➤Adverbs can answer other types of questions about how an action was performed.
+\n\n    ➤They can also tell you when (We arrived early) and where (Turn here).
+\n\n    ➤However, there is one type of verb that doesn’t mix well with adverbs.
+\n\n    ➤Linking verbs, such as feel, smell, sound, seem, and appear, typically need adjectives, not adverbs.
+\n\n    ➤A very common example of this type of mixup is
+\n\n •	I feel badly about what happened.
+\n\n    ➤Because “feel” is a verb, it seems to call for an adverb rather than an adjective. But “feel” isn’t just any verb; it’s a linking verb.
+\n\n    ➤An adverb would describe how you perform the action of feeling—an adjective describes what you feel.
+\n\n    ➤“I feel badly” means that you are bad at feeling things. If you’re trying to read Braille through thick leather gloves, then it might make sense for you to say “I feel badly.”
+\n\n    ➤ But if you’re trying to say that you are experiencing negative emotions, “I feel bad” is the phrase you want.
+
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

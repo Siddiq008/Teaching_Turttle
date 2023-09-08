@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".idimp">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        android:fontFamily="@font/amaranth_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Important idioms"
+                android:fontFamily="@font/amaranth_italic"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n    1. Under the weather
+\n\nMeaning: To feel ill
+\n\nExample: In England we love to talk about the weather and will do so often, but don’t be fooled by this common phrase. If someone says they’re feeling under the weather, your response should be ‘I hope you feel better!’, not ‘Would you like to borrow my umbrella?’.
+\n\n    2. The ball is in your court
+\n\nMeaning: It’s up to you
+\n\nExample: It’s your move now, but this idiom refers to life rather than a sport. If you’ve got the ‘ball,’ the decision is yours and someone is waiting for your decision.
+\n\n    3. Spill the beans
+\n\nMeaning: To give away a secret
+\n\nExample: If you told someone about their own surprise party, you’d have ‘spilled the beans’ or even ‘let the cat out of the bag’. The secret is out.
+\n\n    4. Break a leg
+\n\nMeaning: To wish someone luck
+\n\nExample: This idiom is not at all threatening. Often accompanied by a thumbs up, ‘Break a leg!’ is an encouraging cheer of good luck. It originates from when successful theater performers would to bow so many times after a show that they would break a leg.
+\n\n    5. Pull someone’s leg
+\n\nMeaning: To play a practical joke
+\n\nExample: This is the perfect phrase to learn if you’re a fan of practical jokes. ‘Pull their leg’ is similar to ‘wind someone up’. Use it in context: ‘Relax, I’m just pulling your leg!’ or ‘Wait, are you pulling my leg?’.
+\n\n   6. Sat on the fence
+\n\nMeaning: To be undecided
+\n\nExample:  If you’re sat on the fence, you’ve not decided which side of an argument you agree with. ‘I’m on the fence about hot yoga classes,’ translates as ‘I’m not sure whether I enjoy yoga in a sauna yet.’
+\n\n    7. Through thick and thin
+\n\nMeaning: To be loyal no matter what
+\n\nExample: Often used to describe families or BFFs, ‘through thick and thin’ means that you’re by each other’s side no matter what happens, through the bad times, as well as the good.
+\n\n    8. Once in a blue moon
+\n\nMeaning: Rarely
+\n\nExample: This charming phrase is used to describe something that doesn’t happen often.‘I remember to call my parents from my study abroad trip once in a blue moon.’
+\n\n    9. It’s the best thing since sliced bread
+\n\nMeaning: It’s really, really good
+\n\nExample: Sliced bread must have revolutionized life in England because it’s since been used as the ultimate benchmark for things that are great. We love it almost as much as tea.
+\n\n    10. Take it with a pinch of salt
+\n\nMeaning: Don’t take it too seriously
+\n\nExample: ‘I heard that elephants can fly now, but Sam often makes up stories so I take everything he says with a pinch of salt.’
+\n\n    11. Come rain or shine
+\n\nMeaning: No matter what
+\n\nExample: You guarantee to do something, regardless of the weather or any other situation that might arise. ‘I’ll be at your football game, come rain or shine’.
+\n\n    12. Go down in flames
+\n\nMeaning: To fail spectacularly
+\n\nExample: This phrase is fairly obvious. ‘That exam went down in flames, I should have learned my English idioms.’
+\n\n    13. You can say that again
+\n\nMeaning: That’s true
+\n\nExample: Generally exclaimed in agreement. When a friend says ‘Ryan Reynolds is gorgeous!’, you can reply ‘You can say that again!’
+\n\n    14. See eye to eye
+\n\nMeaning: To agree completely
+\n\nExample: We’re not suggesting a staring contest – to see eye to eye with someone is to agree with the point they’re making.
+\n\n    15. Jump on the bandwagon
+\n\n\Meaning: Following a trend
+\n\nExample: When a person joins in with something popular or does something just because it’s cool. See this brunch-based example: ‘She doesn’t even like avocado on toast. She’s just jumping on the bandwagon.’
+\n\n    16. As right as rain
+\n\nMeaning: Perfect
+\n\nExample: Another weather-based idiom, but this one is slightly trickier. We moan about the rain, but ‘right as rain’ is actually a positive comment. ‘I’m as right as rain!’ may be exclaimed with glee when asked if everything is okay, and it is.
+\n\n    17. Beat around the bush
+\n\nMeaning: Avoid saying something
+\n\nExample: Beating around the bush is when you speak nonsense, avoiding a question because you don’t want to express your opinion or answer truthfully.
+\n\n    18. Hit the sack
+\n\nMeaning: Go to bed
+\n\nExample: This idiom is super easy to learn to use. ‘I’m exhausted, it’s time for me to hit the sack!’
+\n\n    19. Miss the boat
+\n\nMeaning: It’s too late
+\n\nExample: Use this when you let an opportunity or deadline pass by. ‘I forgot to apply for that study abroad program, now I’ve missed the boat.’
+\n\n    20. By the skin of your teeth
+\n\nMeaning: Just barely
+\n\nExample: ‘Phew, I passed that exam by the skin of my teeth!’ Hopefully you’ll ace your exams, but if you only just pass you can whip out this idiom.
+\n\n    21. Turn a blind eye
+\n\nMeaning: To refuse to acknowledge a known truth
+\n\nExample: I’ll turn a blind eye once, but next time you’ll be in trouble.
+\n\n    22. Feeling under the weather
+\n\nMeaning: To feel ill
+\n\nExample: My son was sick yesterday, and now I’m feeling a bit under the weather.
+\n\n    23. Read the riot act
+\n\nMeaning: To reprimand someone for behaving badly, with the intention of improving that person’s behavior
+\n\nExample: Taylor was being too loud in class, so I read her the riot act.
+\n\n    24. The proof is in the pudding
+\n\nMeaning:  The success of something can only be measured by putting it to its intended use.
+\n\nExample: You’ll have to try it out before you buy it, since the proof is in the pudding.
+\n\n    25. I’ve got it in the bag
+\n\nMeaning: Secured success
+\n\nExample: I’m not even worried about the interview. I’ve got it in the bag.
+
+
+
+
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

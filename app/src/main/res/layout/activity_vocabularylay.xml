@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vocdesign"
+    tools:context=".vocabularylay">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="WORDS OF THE DAY"
+        android:fontFamily="@font/amaranth_italic"
+        android:textAlignment="center"
+        android:textColor="#003239"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wrd1"
+        android:layout_width="243dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="50dp"
+        android:background="#5185CAD3"
+        android:paddingTop="18dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:textAlignment="center"
+        android:textColor="#003239"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/meaning_2"
+        android:layout_width="318dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#5185CAD3"
+        android:text=""
+        android:fontFamily="@font/amaranth_italic"
+        android:textColor="#003239"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word_2" />
+
+    <TextView
+        android:id="@+id/play_1"
+        android:layout_width="57dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/ic_baseline_volume_up_24"
+        android:onClick="play_1"
+        android:textColor="#003239"
+        app:layout_constraintBottom_toBottomOf="@+id/wrd1"
+        app:layout_constraintStart_toEndOf="@+id/wrd1"
+        app:layout_constraintTop_toTopOf="@+id/wrd1" />
+
+    <TextView
+        android:id="@+id/word_2"
+        android:layout_width="243dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#5185CAD3"
+        android:paddingTop="18dp"
+        android:textAlignment="center"
+        android:textColor="#003239"
+        android:textSize="18dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meaning_1" />
+
+    <TextView
+        android:id="@+id/meaning_1"
+        android:layout_width="318dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#5185CAD3"
+        android:fontFamily="@font/amaranth_italic"
+
+        android:text=""
+
+        android:textColor="#003239"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wrd1" />
+
+    <TextView
+        android:id="@+id/play_2"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/ic_baseline_volume_up_24"
+        android:onClick="play_2"
+        android:fontFamily="@font/amaranth_italic"
+        android:textColor="#003239"
+        app:layout_constraintBottom_toBottomOf="@+id/word_2"
+        app:layout_constraintStart_toEndOf="@+id/word_2"
+        app:layout_constraintTop_toTopOf="@+id/word_2" />
+
+    <TextView
+        android:id="@+id/word_3"
+        android:layout_width="243dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#5185CAD3"
+        android:paddingTop="18dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#003239"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meaning_2" />
+
+    <TextView
+        android:id="@+id/meaning_3"
+        android:layout_width="318dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:background="#5185CAD3"
+        android:text=""
+        android:textColor="#003239"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word_3" />
+
+    <TextView
+        android:id="@+id/play_3"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:background="@drawable/ic_baseline_volume_up_24"
+        android:onClick="play_3"
+        android:textColor="#003239"
+        app:layout_constraintBottom_toBottomOf="@+id/word_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/word_3"
+        app:layout_constraintTop_toTopOf="@+id/word_3"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/changes"
+        android:layout_width="137dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:layout_height="52dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/bg_button"
+        android:paddingTop="8dp"
+        android:text="Change Words"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

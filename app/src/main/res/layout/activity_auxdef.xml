@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".auxdef">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AUXILIARIES"
+                android:fontFamily="@font/amaranth_italic"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView120"
+
+                />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nDefinition"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth_italic"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView121"/>
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:text="\n    ➤Auxiliary verbs are also called helping verbs, helper verbs, or (verbal) auxiliaries
+\n\n    ➤Auxiliary, in grammar, a helping element, typically a verb, that adds meaning to the basic meaning of the main verb in a clause.
+\n\n    ➤Auxiliaries can convey information about tense, mood, person, and number.
+\n\n    ➤An auxiliary verb occurs with a main verb that is in the form of an infinitive or a participle.
+
+\n\n    There are 2 kinds(Primary,Modals).
+\n\n    1.Primary auxiliaries:11 (am,is,are,was,were,has,have,had,do,does,did)
+\n    2.Modal auxiliaries:9 (can,could,shall,should,will,would,may,might and must)
+\n    3.Semi/Quasi modals:4  (need,dare,ought to,used to)\n\n
+    *We are going to discuss only Modals in this session.Semi/Quasi Modals come under Modals.\n
+
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

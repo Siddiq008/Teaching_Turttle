@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greendesign"
+    android:layout_height="match_parent"
+    tools:context=".advpla">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Placement of adverbs"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:text="\n    ➤Place adverbs as close as possible to the words they are supposed to modify.
+\n\n    ➤Putting the adverb in the wrong spot can produce an awkward sentence at best and completely change the meaning at worst.
+\n\n    ➤Be especially careful about the word only, which is one of the most often misplaced modifiers.
+\n\n    ➤Consider the difference between these two sentences:
+\n\n •	Phillip only fed the cat.
+\n •	Phillip fed only the cat.
+\n\n    ➤The first sentence means that all Phillip did was feed the cat.
+\n\n    ➤He didn’t pet the cat or pick it up or anything else.
+\n\n    ➤The second sentence means that Phillip fed the cat, but he didn’t feed the dog, the bird, or anyone else who might have been around.
+\n\n    ➤When an adverb is modifying a verb phrase, the most natural place for the adverb is usually the middle of the phrase.
+\n\n •	We are quickly approaching the deadline.
+\n •	Phillip has always loved singing.
+\n •	I will happily assist you.
+
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

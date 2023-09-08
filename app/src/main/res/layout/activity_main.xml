@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newdesapp2"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/namel"
+        android:layout_width="326dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        app:startIconDrawable="@drawable/ic_baseline_tag_faces_24">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="311dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_button"
+            android:drawableLeft="@drawable/ic_baseline_tag_faces_24"
+            android:hint="Full name"
+            android:fontFamily="@font/amaranth_italic"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColor="#886A11"
+            android:textColorHint="#886A11" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mailidl"
+        android:layout_width="326dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/amaranth_italic"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+        <EditText
+            android:id="@+id/mailid"
+            android:layout_width="311dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_button"
+            android:drawableLeft="@drawable/ic_baseline_person_pin_24"
+            android:hint="Email-ID"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/amaranth_italic"
+            android:paddingLeft="10dp"
+            android:textColor="#886A11"
+            android:textColorHint="#886A11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            app:layout_constraintVertical_bias="0.103" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="326dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/amaranth_italic"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/passwordl"
+        app:layout_constraintVertical_bias="0.479"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="311dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="264dp"
+            android:background="@drawable/bg_button"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:fontFamily="@font/amaranth_italic"
+            android:paddingLeft="10dp"
+            android:textColor="#886A11"
+            android:textColorHint="#886A11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mailid"
+            app:layout_constraintVertical_bias="0.356" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="159dp"
+        android:layout_height="32dp"
+
+        android:text="SIGN-UP"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/namel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="155dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_button"
+        android:paddingTop="5dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="#44D1D6"
+        android:fontFamily="@font/amaranth_italic"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordl"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="221dp"
+        android:layout_height="28dp"
+        android:onClick="log"
+        android:text="Already Signed-In? login here"
+        android:textColor="#E84CACD8"
+        android:textSize="16dp"
+        android:fontFamily="@font/amaranth_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        android:background="@drawable/progresscircle"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

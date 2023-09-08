@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".consub">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_marginTop="20dp"
+                android:text="Subordinating Conjunctions"
+                android:textIsSelectable="true"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Subordinating conjunctions join independent and dependent clauses.
+\n\n    ➤A subordinating conjunction can signal a cause-and-effect relationship, a contrast, or some other kind of relationship between the clauses.
+\n\n    ➤Common subordinating conjunctions are because, since, as, although, though, while, and whereas.
+\n\n    ➤Sometimes an adverb, such as until, after, or before can function as a conjunction.
+\n\n •	I can stay out until the clock strikes twelve.
+\n\n    ➤Here, the adverb until functions as a subordinating conjunction to connect two ideas: I can stay out (the independent clause) and the clock strikes twelve (the dependent clause).
+\n\n    ➤The independent clause could stand alone as a sentence; the dependent clause depends on the independent clause to make sense.
+\n\n    ➤The subordinating conjunction doesn’t need to go in the middle of the s.entence.
+\n\n    ➤It has to be part of the dependent clause, but the dependent clause can come before the independent clause.
+\n\n •	Before he leaves, make sure his room is clean.
+\n\n    ➤If the dependent clause comes first, use a comma before the independent clause.
+\n\n •	I drank a glass of water because I was thirsty. Because I was thirsty, I drank a glass of water.
+
+
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

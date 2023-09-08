@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".advsen">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Adverbs and sentences"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:text="\n    ➤Some adverbs can modify entire sentences—unsurprisingly, these are called sentence adverbs.
+\n\n    ➤Common ones include generally, fortunately, interestingly, and accordingly.
+\n\n    ➤Sentence adverbs don’t describe one particular thing in the sentence—instead, they describe a general feeling about all of the information in the sentence.
+\n\n •	Fortunately, we got there in time.
+\n •	Interestingly, no one at the auction seemed interested in bidding on the antique spoon collection.
+\n\n    ➤At one time, the use of the word hopefully as a sentence adverb (e.g., Hopefully, I’ll get this job) was condemned.
+\n\n    ➤People continued to use it though, and many style guides and dictionaries now accept it.
+
+
+\n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

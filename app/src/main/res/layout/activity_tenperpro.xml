@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greendesign"
+    android:layout_height="match_parent"
+    tools:context=".tenperpro">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content"
+                android:text="Perfect Progressive Tenses"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/amaranth_italic"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView77"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Perfect progressive tenses are a combination of perfect (completed before) and progressive (ongoing) tenses, which show that something began, continued, and ended before another action.
+\n\n    ➤The perfect progressive tenses combine the perfect (have, has, had, will have), the progressive (been) and the present participle of the main verb.
+\n"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/textView10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/img_27" />
+            <TextView
+                android:id="@+id/textView10"
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    Present  Perfect Progressive
+\n\n    ➤This tense is used for recent past actions that happened repeatedly.
+\n\n •	I have been walking to school on sunny days.
+\n •	He has been finishing his homework by 7 p.m. every day this week.
+\n\n    ➤It is also used for continuous past actions that are affecting the present in some way.
+\n\n •	I have been walking to school a lot, so I'm in much better shape than I was before.
+\n •	He has been finishing all his homework, and his grades have improved a lot.
+
+\n\n    Past  Perfect Progressive
+\n\n    ➤Use the past perfect tense to express actions that happened in the more distant past that happened repeatedly.
+\n\n    ➤This tense is frequently used in relation to another past action that occurred at a later time.
+\n\n •	I had been walking to school every day, but then the weather turned cold.
+\n •	Isabella had been finishing her homework on time all month, but then she caught a cold and missed school.
+\n\n    Future Perfect  Progressive
+\n\n    ➤This tense is used when you are anticipating a time in the future when a continuous action will be finished.
+\n\n •	By tomorrow I will have been walking to school for six weeks straight.
+
+
+
+\n\n    ➤Hint : Choosing the correct tense to use in a sentence requires you to pay close attention to the clues in the sentence.
+
+
+\n"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/imageView22"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

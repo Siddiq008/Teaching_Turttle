@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".prorel">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Relative pronouns"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:textIsSelectable="true"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n    ➤Relative pronouns are another class of pronouns.
+\n\n    ➤They connect relative clauses to independent clauses.
+\n\n    ➤Often, they introduce additional information about something mentioned in the sentence.
+\n\n    ➤Relative pronouns include these words:
+\n\n •	that
+\n •	what
+\n •	which
+\n •	who
+\n •	whom
+\n\n    ➤Traditionally, who refers to people, and which and that refer to animals or things.
+\n\n    ➤Here are a few examples of relative pronouns at work:
+\n\n •	The woman who called earlier didn’t leave a message.
+\n •	All the dogs that got adopted today will be loved.
+\n •	My car, which is nearly twenty years old, still runs well.
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@id/textView91"/>
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Who vs. whom—subject and object pronouns"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/amaranth_italic"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/textView93"
+                />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n\n    ➤Knowing when to use who and when to use whom trips a lot of writers up.
+\n\n    ➤The difference is actually pretty simple:
+\n\n    ➤Who is for the subject of a sentence, and whom is for the object of a verb or preposition.
+\n\n    ➤Here’s a quick example:
+\n\n•	Who mailed this package?
+\n•	To whom was this package sent?
+\n\n    ➤See the difference? Who is a subject pronoun.
+\n\n    ➤It’s in the same category as I, he, she, they, and we. Whom is an object pronoun, which puts it in the same category as me, him, her, them, and us.
+\n\n    ➤An easy way to determine whether you should use who or whom in a sentence is to answer the sentence’s question by substituting another pronoun.
+\n\n    ➤With the new pronoun in place, determine if the sentence still makes sense.
+ \n\nExample:
+\n\n •	He mailed this package.
+\n •	The package was sent to him.
+\n\n    ➤Figuring out when to use whom can be more difficult than knowing when to use who because it typically comes before the sentence’s verb—notice how the example object pronoun sentence changed more dramatically than the subject pronoun sentence.\n
+"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textIsSelectable="true"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

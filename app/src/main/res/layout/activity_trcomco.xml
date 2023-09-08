@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greendesign"
+    tools:context=".trcomco">
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginTop="20dp"
+                android:text="Complex to Compound"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/amaranth_italic"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/textView90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:textIsSelectable="true"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/amaranth_italic"
+                android:layout_height="wrap_content"
+                android:text="\n\n    ➤A complex sentence is characterized by one independent clause and at least one dependent clause.
+\n\nSuch as, I will wait here until you come.
+\n\n    ➤On the other hand, a compound sentence is characterized by at least two independent clauses which can be used as separate sentences and are connected with coordinating conjunctions.
+
+\n\nSuch as, Listening to music and singing songs are my hobbies.
+\n\n    ➤The rules for transforming complex sentence to compound sentence are discussed below.
+
+\n\nRule 1:
+\n\n    ➤If the complex sentence has “though”/”Although” in the beginning, the compound sentence will use the conjunction “but”/”yet” to connect the different clauses.
+
+\n\nComplex: Though he is poor, he is happy.
+\nCompound: He is poor, but he is happy.
+\n\nComplex: Although she is ill, she worked very hard.
+\nCompound: She is ill, yet she worked very hard.
+
+\n\nRule 2:
+\n\n    ➤If the complex sentence has “lest” in the middle having “should” after the person, the compound sentence will use the conjunction “or”/”otherwise” to connect the different clauses, and future tense will be used in the second clause.
+
+\n\nComplex: Study hard lest you should fail.
+\nCompound: Study hard, or you will fail.
+
+\n\nRule 3:
+\n\n    ➤If the complex sentence has “As soon as” in the beginning, the compound sentence will use the conjunction “and” to join the different clauses.
+
+\n\nComplex: As soon as the rain stopped, we started the journey.
+\nCompound: The rain stopped, and we started the journey.
+
+\n\nRule 4:
+\n\n    ➤If the complex sentence has “since”/”as”/”when” in the beginning, the compound sentence will use “and”/”so”/”hence”/”therefore” to connect the different clauses.
+
+\n\nComplex: Since the weather was bad, the match did not take place.
+\nCompound: The weather was bad, and the match did not take place.
+\n\nComplex: As she was ill, she did not come.
+\nCompound: She was ill, so she did not come.
+
+\n\nRule 5:
+\n\n    ➤If the complex sentence has relative pronoun “who”, the compound sentence will use “and” in that place and object of the first clause will be the subject of the second clause.
+
+\n\nComplex: I saw a girl who was singing.
+\nCompound: I saw a girl, and she was singing.
+
+\n\nRule 6:
+\n\n    ➤If the complex sentence starts with “if” having first or third person after it and it bears a negative meaning while transforming it to compound this structure will be followed, “Let+ object form of pronoun+ affirmative form of subordinate clause+ or/otherwise+ main clause”.
+
+\n\nComplex: If I do not go there I will be unable to learn it.
+\nCompound: let me go there or/otherwise I will be unable to learn it.
+
+\n\nRule 7:
+\n\n    ➤If the complex sentence starts with “if” having first or third person after it and it is in affirmative form while transforming it to compound this structure will be followed, “Let+ object form of pronoun+ “and” between two clauses+ main clause”.
+
+\n\nComplex: If I go there, I will be able to learn it.
+\nCompound: let me go there, and I will be able to learn it.
+
+\n\nRule 8:
+\n\n    ➤When the complex sentence starts with “if” having the second person after it and expressing a negative meaning, the compound sentence will omit “If you do not” and use an affirmative form of verb+ or/otherwise + the main clause.
+
+\n\nComplex: If you do not study hard, you will fail.
+\nCompound: Study hard, or you will fail.
+
+\n\nRule 9:
+\n\n    ➤When the complex sentence starts with “if” having the second person after it and it’s in affirmative form, the compound sentence will omit “If you do not” and use an affirmative form of verb+ and + main clause.
+
+\n\nComplex: If you study hard, you will get good marks.
+\nCompound: Study hard, and you will get good marks.
+
+\n\nRule 10:
+\n\n    ➤If the complex sentence has “so…that” form, the compound sentence will follow this rule, “very “ in place of “so”; ”and” in place of “that” +so/hence/therefore+ main clause.
+
+\n\nComplex: I am so tired that I cannot work.
+\nCompound: I am very tired, and so/hence/therefore I cannot work.
+
+\n\nRule 11:
+
+\n\n    ➤f the complex sentence starts with “Unless” following second person(you), the compound sentence will follow this structure, “Unless and you will be omitted + ”or” between two clauses+ main clause.”
+
+\n\nComplex: Unless you say prayers, you cannot advise anyone to say prayers.
+\nCompound: Say prayers, or you cannot advise anyone to say prayers.
+
+\n
+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

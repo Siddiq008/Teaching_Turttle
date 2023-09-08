@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973571815009",
+    "project_id": "sara-c38fb",
+    "storage_bucket": "sara-c38fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973571815009:android:9ba28c9cf87e989c149c20",
+        "android_client_info": {
+          "package_name": "com.example.sara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973571815009-olqrm3k1cbef456307juanjcbrq9623s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzflxPSR4g2PR9mdDAXJk3mOjNosQL2LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973571815009-olqrm3k1cbef456307juanjcbrq9623s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

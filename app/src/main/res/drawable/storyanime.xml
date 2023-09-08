@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/stryfr1"
+        android:duration="1250"
+        />
+    <item android:drawable="@drawable/stryfr7"
+        android:duration="1250"/>
+    <item android:drawable="@drawable/stryfr3"
+        android:duration="1250"/>
+    <item android:drawable="@drawable/stryfr4"
+        android:duration="1250"/>
+
+</animation-list>
